@@ -31,7 +31,8 @@ header{
   position:fixed;
   left:0;right:0;top:0;
   z-index:50;
-  mix-blend-mode:multiply;
+  background:rgba(244,244,240,0.92);
+  backdrop-filter:blur(8px);
 }
 .nav{
   height:84px;
@@ -44,8 +45,8 @@ header{
   font-size:18px;font-weight:800;letter-spacing:-.05em
 }
 .logo{
-  height:80px;width:auto;display:block;max-width:100%;
-  object-fit:contain;flex-shrink:0;mix-blend-mode:multiply;
+  height:54px;width:auto;display:block;max-width:100%;
+  object-fit:contain;flex-shrink:0;
 }
 .navlinks{
   display:flex;gap:34px;
